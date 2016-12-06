@@ -1,0 +1,22 @@
+version '1.0-SNAPSHOT'
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.13'
+  distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+mainClassName = "Kryptomechanismen"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.logging.log4j', name:'log4j-api', version:'2.5'
+    compile group: 'org.apache.logging.log4j', name:'log4j-core', version:'2.5'
+}
+

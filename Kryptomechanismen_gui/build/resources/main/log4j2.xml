@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="patternLayout">%-5p %X{userName}%X{errorId}  [%d{dd.MM.yyyy – HH:mm:ss}] (%C): %m%n</Property>
+    </Properties>
+    <Appenders>
+        <!-- Ausgabe in der Console -->
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="${patternLayout}" />
+        </Console>
+
+        <!-- Aufzeichnung der INFO - Ausgaben -->
+        <RollingFile name="FileInfo" fileName="./logs/info.log" filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <!-- Filters -->
+            <Filters>
+                <ThresholdFilter level="info"/>
+                <ThresholdFilter level="WARN" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <!-- Layout des Textes -->
+            <PatternLayout pattern="${patternLayout}" />
+            <!-- Max Groesse des Files -->
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+            <!-- Maximale Anzahl der Files die gesichert werden -->
+            <DefaultRolloverStrategy max="10" />
+		</RollingFile>
+
+        <!-- Aufzeichnung der WARN - Ausgaben -->
+		<RollingFile name="FileWarn" fileName="./logs/Warn.log" filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <!-- Filters -->
+            <Filters>
+                <ThresholdFilter level="warn"/>
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL" />
+            </Filters>
+            <!-- Layout des Textes -->
+            <PatternLayout pattern="${patternLayout}" />
+            <!-- Max Groesse des Files -->
+            <Policies>
+                <SizeBasedTriggeringPolicy size="5 MB" />
+            </Policies>
+            <!-- Maximale Anzahl der Files die gesichert werden -->
+            <DefaultRolloverStrategy max="10" />
+		</RollingFile>
+
+        <!-- Aufzeichnung der Error - Ausgaben -->
+		<RollingFile name="FileError" fileName="./logs/error.log" filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <!-- Filters -->
+            <Filters>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <!-- Layout des Textes -->
+            <PatternLayout pattern="${patternLayout}" />
+            <!-- Max Groesse des Files -->
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB" />
+            </Policies>
+            <!-- Maximale Anzahl der Files die gesichert werden -->
+            <DefaultRolloverStrategy max="10" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="FileInfo" />
+            <AppenderRef ref="FileWarn" />
+			<AppenderRef ref="FileError" />
+		</Root>
+	</Loggers>
+</Configuration>

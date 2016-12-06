@@ -1,0 +1,7 @@
+1. Klartext in die Datei txt/Klartext.txt eingeben
+2. Programm Starten
+	das Programm verschlüsselt jeweils den Klartext für
+	- symmetrische Verschlüsselung
+	- asymmetrische Verschlüsselung
+	- Hashen
+	- Digitale Signatur

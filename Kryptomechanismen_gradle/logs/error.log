@@ -1,0 +1,41 @@
+ERROR   [03.05.2016 – 11:01:19] (util.File): usedKeys.txt konnte nicht geschrieben werden !!
+ERROR   [03.05.2016 – 11:01:19] (util.File): usedKeys.txt konnte nicht geschrieben werden !!
+ERROR   [03.05.2016 – 11:01:19] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+ERROR   [03.05.2016 – 11:01:19] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:03:34] (util.File): usedKeys.txt konnte nicht geschrieben werden !!java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\usedKeys.txt
+ERROR   [03.05.2016 – 11:03:34] (util.File): usedKeys.txt konnte nicht geschrieben werden !!java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\usedKeys.txt
+ERROR   [03.05.2016 – 11:03:34] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+ERROR   [03.05.2016 – 11:03:34] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:04:19] (util.File): usedKeys.txt konnte nicht geschrieben werden !! /njava.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\usedKeys.txt
+ERROR   [03.05.2016 – 11:04:19] (util.File): usedKeys.txt konnte nicht geschrieben werden !! /njava.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\usedKeys.txt
+ERROR   [03.05.2016 – 11:04:19] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+ERROR   [03.05.2016 – 11:04:19] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:04:33] (util.File): usedKeys.txt konnte nicht geschrieben werden !!
+java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\usedKeys.txt
+ERROR   [03.05.2016 – 11:04:33] (util.File): usedKeys.txt konnte nicht geschrieben werden !!
+java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\usedKeys.txt
+ERROR   [03.05.2016 – 11:04:33] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+ERROR   [03.05.2016 – 11:04:33] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:05:24] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+ERROR   [03.05.2016 – 11:05:24] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:05:57] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\AES_crypt.txt
+ERROR   [03.05.2016 – 11:05:57] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:10:13] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\AES_crypt.txt
+ERROR   [03.05.2016 – 11:10:13] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:26:15] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\AES_crypt.txt
+ERROR   [03.05.2016 – 11:26:15] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 11:33:19] (util.File): AES_crypt.txt konnte nicht geschrieben werden !!
+java.nio.file.NoSuchFileException: C:\Users\Kai\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen_gradle\txt\AES_crypt.txt
+ERROR   [03.05.2016 – 11:33:19] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 15:42:24] (util.File): AES_crypt.txt konnte nicht geschrieben werden !! 
+java.nio.file.NoSuchFileException: Z:\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen\txt\AES_crypt.txt
+ERROR   [03.05.2016 – 15:42:24] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 15:54:54] (util.File): AES_crypt.txt konnte nicht geschrieben werden !! 
+java.nio.file.NoSuchFileException: Z:\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen\txt\AES_crypt.txt
+ERROR   [03.05.2016 – 15:54:54] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
+ERROR   [03.05.2016 – 16:27:44] (util.File): AES_crypt.txt konnte nicht geschrieben werden !! 
+java.nio.file.NoSuchFileException: Z:\Dropbox\Repository\FH\Datenschutz_und_Datensicherheit\Kryptomechanismen\txt\AES_crypt.txt
+ERROR   [03.05.2016 – 16:27:44] (util.File): AES_crypt.txt konnte nicht gelesen werden !!
